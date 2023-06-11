@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntryDetail">
+
+    <TextView
+        android:id="@+id/activity_ernty_detail_tag_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_entry_detail_tag_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/activity_ernty_detail_tag_one"
+        app:layout_constraintStart_toStartOf="@+id/activity_ernty_detail_tag_one"
+        app:layout_constraintTop_toBottomOf="@+id/activity_ernty_detail_tag_one" />
+
+    <TextView
+        android:id="@+id/activity_entry_detail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_ernty_detail_tag_one"
+        app:layout_constraintStart_toEndOf="@+id/activity_ernty_detail_tag_one"
+        app:layout_constraintTop_toTopOf="@+id/activity_ernty_detail_tag_one" />
+
+    <TextView
+        android:id="@+id/activity_entry_detail_price"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="@+id/activity_entry_detail_date"
+        app:layout_constraintStart_toStartOf="@+id/activity_entry_detail_date"
+        app:layout_constraintTop_toBottomOf="@+id/activity_entry_detail_date" />
+
+    <Button
+        android:id="@+id/activity_entry_detail_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="368dp"
+        android:backgroundTint="#952828"
+        android:text="Löschen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/activity_entry_detail_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#6A6868"
+        android:text="Zurück"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="10dp"
+        android:text="€"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_entry_detail_price"
+        app:layout_constraintStart_toEndOf="@+id/activity_entry_detail_price"
+        app:layout_constraintTop_toTopOf="@+id/activity_entry_detail_price" />
+
+    <TextView
+        android:id="@+id/activity_entry_detail_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keine weiteren Informationen"
+        app:layout_constraintBottom_toTopOf="@+id/activity_entry_detail_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+</androidx.constraintlayout.widget.ConstraintLayout>

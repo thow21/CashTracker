@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CashTracker</string>
+    <string-array name="location">
+        <item>Markt</item>
+        <item>Bäcker</item>
+        <item>Lerchenhof</item>
+        <item>Graf</item>
+        <item>Supermarkt</item>
+        <item>Bipa</item>
+        <item>Lokal</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="product">
+        <item>Gemüse</item>
+        <item>Obst</item>
+        <item>Brot/Gebäck</item>
+        <item>Pflanzen</item>
+        <item>Fleisch</item>
+        <item>Essen</item>
+        <item>Sonstige</item>
+    </string-array>
+</resources>
